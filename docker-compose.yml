@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  mysql:
+    container_name: simple-chat-db
+    image: mysql:8.0
+    command:
+      [
+        'mysqld',
+        '--character-set-server=utf8mb4',
+        '--collation-server=utf8mb4_unicode_ci',
+        '--default-authentication-plugin=mysql_native_password',
+      ]
+    ports:
+      - "8082:3306"
+    volumes:
+      - data-volume:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: simple-chat
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    healthcheck:
+      test: "exit 0"
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  data-volume:
