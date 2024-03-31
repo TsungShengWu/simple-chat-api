@@ -29,21 +29,28 @@ const RAW_RUNTIME_STATE =
           ["@nestjs/cli", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.2"],\
           ["@nestjs/common", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/core", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
+          ["@nestjs/passport", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.3"],\
           ["@nestjs/platform-express", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/schematics", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.1.1"],\
           ["@nestjs/testing", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/typeorm", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.2"],\
+          ["@types/bcryptjs", "npm:2.4.6"],\
           ["@types/express", "npm:4.17.21"],\
           ["@types/jest", "npm:29.5.12"],\
           ["@types/node", "npm:20.12.2"],\
+          ["@types/passport", "npm:0.4.7"],\
+          ["@types/passport-local", "npm:1.0.38"],\
           ["@types/supertest", "npm:6.0.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
+          ["bcryptjs", "npm:2.4.3"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:5.1.3"],\
           ["jest", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:29.7.0"],\
           ["mysql2", "npm:3.9.3"],\
+          ["passport", "npm:0.7.0"],\
+          ["passport-local", "npm:1.0.0"],\
           ["prettier", "npm:3.2.5"],\
           ["reflect-metadata", "npm:0.2.2"],\
           ["rxjs", "npm:7.8.1"],\
@@ -1564,6 +1571,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@nestjs/passport", [\
+      ["npm:10.0.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@nestjs-passport-npm-10.0.3-e90ac1045b-10c0.zip/node_modules/@nestjs/passport/",\
+        "packageDependencies": [\
+          ["@nestjs/passport", "npm:10.0.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@nestjs-passport-virtual-a5a1745404/4/AppData/Local/Yarn/Berry/cache/@nestjs-passport-npm-10.0.3-e90ac1045b-10c0.zip/node_modules/@nestjs/passport/",\
+        "packageDependencies": [\
+          ["@nestjs/passport", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.3"],\
+          ["@nestjs/common", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
+          ["@types/nestjs__common", null],\
+          ["@types/passport", "npm:0.4.7"],\
+          ["passport", "npm:0.7.0"]\
+        ],\
+        "packagePeers": [\
+          "@nestjs/common",\
+          "@types/nestjs__common",\
+          "@types/passport",\
+          "passport"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@nestjs/platform-express", [\
       ["npm:10.3.7", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@nestjs-platform-express-npm-10.3.7-c0ce04d974-10c0.zip/node_modules/@nestjs/platform-express/",\
@@ -1918,6 +1951,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/bcryptjs", [\
+      ["npm:2.4.6", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-bcryptjs-npm-2.4.6-50588b8234-10c0.zip/node_modules/@types/bcryptjs/",\
+        "packageDependencies": [\
+          ["@types/bcryptjs", "npm:2.4.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/body-parser", [\
       ["npm:1.19.5", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-body-parser-npm-1.19.5-97fb106976-10c0.zip/node_modules/@types/body-parser/",\
@@ -2104,6 +2146,47 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:20.12.2"],\
           ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/passport", [\
+      ["npm:0.4.7", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-passport-npm-0.4.7-41ee4f6974-10c0.zip/node_modules/@types/passport/",\
+        "packageDependencies": [\
+          ["@types/passport", "npm:0.4.7"],\
+          ["@types/express", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.16", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-passport-npm-1.0.16-7f245434f2-10c0.zip/node_modules/@types/passport/",\
+        "packageDependencies": [\
+          ["@types/passport", "npm:1.0.16"],\
+          ["@types/express", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/passport-local", [\
+      ["npm:1.0.38", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-passport-local-npm-1.0.38-e5beccb1f8-10c0.zip/node_modules/@types/passport-local/",\
+        "packageDependencies": [\
+          ["@types/passport-local", "npm:1.0.38"],\
+          ["@types/express", "npm:4.17.21"],\
+          ["@types/passport", "npm:1.0.16"],\
+          ["@types/passport-strategy", "npm:0.2.38"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/passport-strategy", [\
+      ["npm:0.2.38", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@types-passport-strategy-npm-0.2.38-6460f7e728-10c0.zip/node_modules/@types/passport-strategy/",\
+        "packageDependencies": [\
+          ["@types/passport-strategy", "npm:0.2.38"],\
+          ["@types/express", "npm:4.17.21"],\
+          ["@types/passport", "npm:1.0.16"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3118,6 +3201,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/base64-js-npm-1.5.1-b2f7275641-10c0.zip/node_modules/base64-js/",\
         "packageDependencies": [\
           ["base64-js", "npm:1.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bcryptjs", [\
+      ["npm:2.4.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/bcryptjs-npm-2.4.3-32de4957eb-10c0.zip/node_modules/bcryptjs/",\
+        "packageDependencies": [\
+          ["bcryptjs", "npm:2.4.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7218,6 +7310,37 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["passport", [\
+      ["npm:0.7.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/passport-npm-0.7.0-df02531736-10c0.zip/node_modules/passport/",\
+        "packageDependencies": [\
+          ["passport", "npm:0.7.0"],\
+          ["passport-strategy", "npm:1.0.0"],\
+          ["pause", "npm:0.0.1"],\
+          ["utils-merge", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["passport-local", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/passport-local-npm-1.0.0-ed89961a0c-10c0.zip/node_modules/passport-local/",\
+        "packageDependencies": [\
+          ["passport-local", "npm:1.0.0"],\
+          ["passport-strategy", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["passport-strategy", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/passport-strategy-npm-1.0.0-5648a82a66-10c0.zip/node_modules/passport-strategy/",\
+        "packageDependencies": [\
+          ["passport-strategy", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["path-exists", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-exists-npm-4.0.0-e9e4f63eb0-10c0.zip/node_modules/path-exists/",\
@@ -7286,6 +7409,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/path-type-npm-4.0.0-10d47fc86a-10c0.zip/node_modules/path-type/",\
         "packageDependencies": [\
           ["path-type", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pause", [\
+      ["npm:0.0.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/pause-npm-0.0.1-0c421a299d-10c0.zip/node_modules/pause/",\
+        "packageDependencies": [\
+          ["pause", "npm:0.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7943,21 +8075,28 @@ const RAW_RUNTIME_STATE =
           ["@nestjs/cli", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.2"],\
           ["@nestjs/common", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/core", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
+          ["@nestjs/passport", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.3"],\
           ["@nestjs/platform-express", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/schematics", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.1.1"],\
           ["@nestjs/testing", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.3.7"],\
           ["@nestjs/typeorm", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:10.0.2"],\
+          ["@types/bcryptjs", "npm:2.4.6"],\
           ["@types/express", "npm:4.17.21"],\
           ["@types/jest", "npm:29.5.12"],\
           ["@types/node", "npm:20.12.2"],\
+          ["@types/passport", "npm:0.4.7"],\
+          ["@types/passport-local", "npm:1.0.38"],\
           ["@types/supertest", "npm:6.0.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
+          ["bcryptjs", "npm:2.4.3"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:5.1.3"],\
           ["jest", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:29.7.0"],\
           ["mysql2", "npm:3.9.3"],\
+          ["passport", "npm:0.7.0"],\
+          ["passport-local", "npm:1.0.0"],\
           ["prettier", "npm:3.2.5"],\
           ["reflect-metadata", "npm:0.2.2"],\
           ["rxjs", "npm:7.8.1"],\
