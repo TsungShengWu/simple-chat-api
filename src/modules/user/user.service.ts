@@ -17,4 +17,8 @@ export class UserService {
       .where('user.username = :username', { username })
       .getOne();
   }
+
+  async getUserById(id: number): Promise<User | null> {
+    return this.userRepository.findOneBy({ id });
+  }
 }

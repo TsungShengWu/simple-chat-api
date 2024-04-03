@@ -3,6 +3,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { AuthModule } from './modules/auth/auth.module';
+import { UserModule } from './modules/user/user.module';
 
 @Module({
   imports: [
@@ -17,6 +19,8 @@ import { AppService } from './app.service';
       synchronize: true,
       namingStrategy: new SnakeNamingStrategy(),
     }),
+    AuthModule,
+    UserModule,
   ],
   controllers: [AppController],
   providers: [AppService],
