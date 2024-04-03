@@ -5,7 +5,6 @@ import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { LocalStrategy } from './local.strategy';
 import { JwtStrategy } from './jwt.strategy';
-import { JWT_SECRET } from './constants';
 import { UserModule } from '../user/user.module';
 
 @Module({
@@ -13,8 +12,8 @@ import { UserModule } from '../user/user.module';
     PassportModule,
     UserModule,
     JwtModule.register({
-      secret: JWT_SECRET,
-      signOptions: { expiresIn: process.env.JWT_EXPIRES_IN || '1d' },
+      secret: process.env.JWT_SECRET,
+      signOptions: { expiresIn: process.env.JWT_EXPIRES_IN },
     }),
   ],
   controllers: [AuthController],

@@ -10,11 +10,11 @@ import { UserModule } from './modules/user/user.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: process.env.MY_SQL_HOST || 'localhost',
-      port: Number(process.env.MY_SQL_PORT) || 8082,
-      database: process.env.MY_SQL_DATABASE || 'simple-chat',
-      username: process.env.MY_SQL_USERNAME || 'admin',
-      password: process.env.MY_SQL_PASSWORD || 'password',
+      host: process.env.MY_SQL_HOST,
+      port: Number(process.env.MY_SQL_PORT),
+      database: process.env.MY_SQL_DATABASE,
+      username: process.env.MY_SQL_USERNAME,
+      password: process.env.MY_SQL_PASSWORD,
       autoLoadEntities: true,
       synchronize: true,
       namingStrategy: new SnakeNamingStrategy(),

@@ -46,6 +46,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/eslint-plugin", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["bcryptjs", "npm:2.4.3"],\
+          ["dotenv", "npm:16.4.5"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:5.1.3"],\
@@ -8283,6 +8284,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/eslint-plugin", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["@typescript-eslint/parser", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:6.21.0"],\
           ["bcryptjs", "npm:2.4.3"],\
+          ["dotenv", "npm:16.4.5"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:9.1.0"],\
           ["eslint-plugin-prettier", "virtual:4c059bf8b20f3dac1f0f3983197116485a09939195f3a1a372927f8960051805d07c72f49dcac580743d6bd69894a7e475bd79a7c3f9b9c7fa906a7fd3fa358b#npm:5.1.3"],\
